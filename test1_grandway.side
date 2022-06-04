@@ -1,0 +1,232 @@
+{
+  "id": "afbd4124-4801-4124-9eca-d73a1d357fa4",
+  "version": "2.0",
+  "name": "test1_grandway",
+  "url": "https://grandway.ua",
+  "tests": [{
+    "id": "b44fbddf-0cf5-44f2-934d-e2e66f2d3720",
+    "name": "1",
+    "commands": [{
+      "id": "bf7250bb-e41a-4483-b232-740fb081d72f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63177eee-a93d-48a7-9771-1650e153c941",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c344caca-10ab-4c7e-ae05-de0b5fb9522d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.banner:nth-child(1) .banner-img",
+      "targets": [
+        ["css=.banner:nth-child(1) .banner-img", "css:finder"],
+        ["xpath=//img[@alt='Ножи']", "xpath:img"],
+        ["xpath=//div[@id='root-wrapper']/div/div/div[4]/div[2]/div/div[2]/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c1c769-2f56-43ba-bc13-6f7bd3ed9328",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Балисонги",
+      "targets": [
+        ["linkText=Балисонги", "linkText"],
+        ["css=.layerednavigation-cat:nth-child(15) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Балисонги')]", "xpath:link"],
+        ["xpath=//dl[@id='narrow-by-list']/dd/ol/li[15]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://grandway.ua/catalog/nozhi/nozhi-balisongi')])[4]", "xpath:href"],
+        ["xpath=//ol/li[15]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf339b6-ae78-445b-9e17-297e12f85614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-with-drop span",
+      "targets": [
+        ["css=.chosen-with-drop span", "css:finder"],
+        ["xpath=//div[@id='brander_layerednavigation-page-container']/div[2]/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Популярность')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b5a857c-2fab-418d-b70d-20b9441f76ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result:nth-child(2)",
+      "targets": [
+        ["css=.active-result:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='brander_layerednavigation-page-container']/div[2]/div/div/div/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Цена')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96444794-0140-4beb-9d10-e90212328356",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-products > .toolbar .category-asc",
+      "targets": [
+        ["css=.category-products > .toolbar .category-asc", "css:finder"],
+        ["xpath=//button[@onclick=\"setLocation('https://grandway.ua/catalog/nozhi/nozhi-balisongi?dir=desc&order=price')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='brander_layerednavigation-page-container']/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7228c9c0-19d0-4ac0-b8f0-c38bb2f20140",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-with-drop span",
+      "targets": [
+        ["css=.chosen-with-drop span", "css:finder"],
+        ["xpath=//div[@id='brander_layerednavigation-page-container']/div[2]/div/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'35')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a66cf6a-2e1c-4b2e-a4ab-10c72b1cee66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result:nth-child(1)",
+      "targets": [
+        ["css=.active-result:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='brander_layerednavigation-page-container']/div[2]/div/div/div[2]/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'23')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "68923dc4-3251-4dad-a7cc-7cabf4913db5",
+    "name": "2",
+    "commands": [{
+      "id": "55e9e92a-9dba-4b97-9095-55f3c6824899",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f138a24-2bed-4997-8e2b-074ce2086009",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b02eb5d-76bb-449d-a57a-a68ee47bcad8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.banner:nth-child(1) .banner-img",
+      "targets": [
+        ["css=.banner:nth-child(1) .banner-img", "css:finder"],
+        ["xpath=//img[@alt='Ножи']", "xpath:img"],
+        ["xpath=//div[@id='root-wrapper']/div/div/div[4]/div[2]/div/div[2]/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893384f1-f869-4370-970f-d6cf4d7e5fb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Балисонги",
+      "targets": [
+        ["linkText=Балисонги", "linkText"],
+        ["css=.layerednavigation-cat:nth-child(15) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Балисонги')]", "xpath:link"],
+        ["xpath=//dl[@id='narrow-by-list']/dd/ol/li[15]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://grandway.ua/catalog/nozhi/nozhi-balisongi')])[4]", "xpath:href"],
+        ["xpath=//ol/li[15]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1864e36-0e70-4877-b7cb-0904d90376ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=layerednavigation-price-to",
+      "targets": [
+        ["id=layerednavigation-price-to", "id"],
+        ["css=#layerednavigation-price-to", "css:finder"],
+        ["xpath=//input[@id='layerednavigation-price-to']", "xpath:attributes"],
+        ["xpath=//dl[@id='narrow-by-list']/dd[2]/ol/li[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75cd358f-eb7a-4e9a-a751-119c7f973a95",
+      "comment": "",
+      "command": "type",
+      "target": "id=layerednavigation-price-to",
+      "targets": [
+        ["id=layerednavigation-price-to", "id"],
+        ["css=#layerednavigation-price-to", "css:finder"],
+        ["xpath=//input[@id='layerednavigation-price-to']", "xpath:attributes"],
+        ["xpath=//dl[@id='narrow-by-list']/dd[2]/ol/li[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "235"
+    }, {
+      "id": "14b55e8f-12f3-4858-a113-44caba065912",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=layerednavigation-price-to",
+      "targets": [
+        ["id=layerednavigation-price-to", "id"],
+        ["css=#layerednavigation-price-to", "css:finder"],
+        ["xpath=//input[@id='layerednavigation-price-to']", "xpath:attributes"],
+        ["xpath=//dl[@id='narrow-by-list']/dd[2]/ol/li[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "921c67c6-a8ff-4287-8e87-31ed4715c3fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=layerednavigation-price-btn",
+      "targets": [
+        ["id=layerednavigation-price-btn", "id"],
+        ["css=#layerednavigation-price-btn", "css:finder"],
+        ["xpath=//button[@id='layerednavigation-price-btn']", "xpath:attributes"],
+        ["xpath=//dl[@id='narrow-by-list']/dd[2]/ol/li[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Найти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac7c4c04-9f6a-40e4-a296-988283aaa795",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Балисонги",
+      "targets": [
+        ["linkText=Балисонги", "linkText"],
+        ["css=.layerednavigation-cat:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Балисонги')]", "xpath:link"],
+        ["xpath=//dl[@id='narrow-by-list']/dd/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://grandway.ua/catalog/nozhi/nozhi-balisongi/balisongi')])[2]", "xpath:href"],
+        ["xpath=//dd/ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2804aba5-6c94-42dd-9702-f470d6148144",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://grandway.ua/"],
+  "plugins": []
+}
